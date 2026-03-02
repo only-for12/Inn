@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<title>For Someone Special</title>
+
+<meta name="theme-color" content="#0f0f0f">
+<meta name="description" content="Specially built for someone special">
+
+<!-- Google Fonts Connection -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Inter Font (Main Font) -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Playfair Display (Premium Final Title Font) -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="app">
+
+    <!-- INTRO -->
+    <section id="introScreen" class="screen active">
+        <div class="centerBox">
+
+            <h1 class="headline">
+                For the one and only, Amna ✨
+            </h1>
+
+            <p class="subtext">
+                Don't rush this.
+            </p>
+
+            <button id="enterBtn" class="primaryBtn">
+                Continue
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- MAIN -->
+    <section id="mainScreen" class="screen">
+
+        <h2 id="mainQuestion" class="questionText">
+            Did it feel like I dismissed your feelings that night ?
+        </h2>
+
+        <div id="buttonArena">
+
+            <button id="safeBtn" class="safeBtn">
+                No
+            </button>
+
+            <button id="targetBtn" class="targetBtn">
+                You didn’t even read it 😒
+            </button>
+
+        </div>
+
+        <div id="analysisBox">
+            <p id="analysisText"></p>
+        </div>
+
+    </section>
+
+
+    <!-- FINAL -->
+    <section id="finalScreen" class="screen">
+
+        <div class="centerBox">
+
+            <h2 id="finalTitle"></h2>
+
+            <p id="finalMessage"></p>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- JS File -->
+<script src="script.js"></script>
+
+</body>
+</html>
